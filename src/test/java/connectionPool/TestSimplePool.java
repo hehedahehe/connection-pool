@@ -30,7 +30,7 @@ public class TestSimplePool {
                 e.printStackTrace();
             }
         }
-        connectionPool.close();
+        connectionPool.close(); //关闭连接池
         long endTime = System.currentTimeMillis();
         System.out.println("【使用】连接池总耗时："+(endTime-beginTime)+"ms");
 
